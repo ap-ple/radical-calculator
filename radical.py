@@ -2,7 +2,7 @@ while True:
   from math import sqrt
   from os import system
   from stuff import *
-  system('cls')
+  cls()
   def findnum():
     x = input("Enter number: √")
     if x.isdigit():
